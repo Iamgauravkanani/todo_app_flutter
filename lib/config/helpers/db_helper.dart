@@ -1,6 +1,7 @@
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import '../../screens/home/model/todo_model.dart';
+
+import '../../model/todo_model.dart';
 
 class DBHelper {
   DBHelper._();

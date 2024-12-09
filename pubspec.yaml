@@ -37,8 +37,13 @@ dependencies:
   cupertino_icons: ^1.0.2
   get:
   sqflite:
+  fluttertoast: ^8.2.8
   path:
   google_fonts:
+  shared_preferences: ^2.3.3
+  flutter_svg: ^2.0.16
+  share_plus: ^10.1.2
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +70,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - asset/
+    - asset/svg/
+    - asset/img/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -78,10 +85,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: asset/font/Roboto-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
